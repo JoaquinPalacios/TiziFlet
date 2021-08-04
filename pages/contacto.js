@@ -43,7 +43,7 @@ const Contact = () => {
         <div>
             <Head>
                 <title>TiziFlet | Contacto</title>
-                <link rel="icon" href="/logo.png" />
+                <link rel="icon" type="image/png" sizes="16x16" href="/images/logo.png" />
                 <meta name='viewport' content='initial-scale=1.0, width=device-width' />
             </Head>
             <div>
