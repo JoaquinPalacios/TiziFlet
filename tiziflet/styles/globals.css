@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+
+body {
+  background: #f2f2f2;
+  color: #4f4f4f;
+  font-family: "Nunito";
+}
+nav {
+  border-bottom: 2px solid #ddd;
+  box-shadow: 0px 2px 4px #707070;
+}
+nav a {
+  margin-left: 12px;
+}
+nav .logo {
+  max-height: 75px;
+  max-width: 75px;
+}
+nav .phone {
+  background-color: #47769E;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px #707070;
+  color: white;
+  font-size: 1.3em;
+  padding: 5px 5px 5px 0px;
+}
+nav .phone:hover {
+  box-shadow: 1px 2px 3px #707070;
+}
+a {
+  text-decoration: none !important;
+  color: #707070;
+  font-size: 1.25em;
+  font-weight: 700;
+}
+a:hover {
+  color: #3b3b3b;
+}
+h1 {
+  color: #c53732;
+  font-size: 100px;
+  font-style: italic;
+  font-weight: 800;
+  letter-spacing: 6px;
+  line-height: 1em;
+  text-align: center;
+  text-shadow: 0px 0px 1px #6e9abe, 2px 2px 3px #000000;
+}
+h5 {
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+footer {
+  background-color: #1a2c3a;
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
+  color: whitesmoke;
+  border-top: 1px solid #eaeaea;
+}
+.footerTizi {
+  color: #D35450;
+  font-size: 40px;
+  font-weight: 600;
+}
+.not-found {
+  text-align: center;
+}
+.white {
+  color: #fff;
+}
+.bgCeleste {
+  background-color: #47769E;
+}
+.titleTop {
+  position: absolute;
+  top: 15em;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.headerBox {
+  position: absolute;
+  top: 35em;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-color: #6e9abe;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+  margin-left: 5vw;
+  transition: 0.3s;
+  max-width: 400px;
+  -webkit-animation: rotate-in-diag-2 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: rotate-in-diag-2 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation-delay: 1s;
+}
+.headerBox:hover {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 1px #6e9abe, 0 8px 16px 0 rgba(0,0,0,0.4), 0px 1px 2px #707070 inset;  
+}
+.photoRight {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: -10px 15px #888888 !important;
+}
+.photoLeft {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: -10px 15px #888888 !important;
+}
+@-webkit-keyframes rotate-in-diag-2 {
+  0% {
+    -webkit-transform: rotate3d(-1, 1, 0, -360deg);
+            transform: rotate3d(-1, 1, 0, -360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate3d(-1, 1, 0, 0deg);
+            transform: rotate3d(-1, 1, 0, 0deg);
+    opacity: 1;
+  }
+}
+@keyframes rotate-in-diag-2 {
+  0% {
+    -webkit-transform: rotate3d(-1, 1, 0, -360deg);
+            transform: rotate3d(-1, 1, 0, -360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate3d(-1, 1, 0, 0deg);
+            transform: rotate3d(-1, 1, 0, 0deg);
+    opacity: 1;
+  }
+}
+.text {
+  color: #707070;
+  font-size: 30px;
+  padding: 18px 12px;
+  text-align: center;
+}
+.subTitle {
+  color: #c53632;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+}
+@media only screen and (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+  }
+  nav .phone {
+    font-size: 1.1em;
+    padding: 3px 3px 3px 0px;
+  }
+  .titleTop {   
+    top: 8em;
+  }
+  .headerBox { 
+    border-radius: 8px;
+    margin-left: 3vw;
+    top: 14em;
+    max-width: 240px;
+  }
+  .text {
+    font-size: 19px;
+    line-height: 1.4em;
+    padding: 6px 5px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  h1 {
+    font-size: 65px;
+  }
+  nav .phone {
+    font-size: 1.2em;
+    padding: 4px 4px 4px 0px;
+  }
+  .titleTop {   
+    top: 8em;
+  }
+  .headerBox { 
+    border-radius: 8px;
+    margin-left: 3vw;
+    top: 16em;
+    max-width: 280px;
+  }
+  .text {
+    font-size: 21px;
+    padding: 8px 6px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  h1 {
+    font-size: 80px;
+  }
+  .titleTop {   
+    top: 9em;
+  }
+  .headerBox {
+    border-radius: 8px;
+    margin-left: 4vw;
+    top: 20em;
+    max-width: 320px;
+  }
+  .text {
+    font-size: 25px;
+    padding: 10px 8px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  h1 {
+    font-size: 90px;
+  }
+  .titleTop {
+    top: 12em;
+  }
+  .headerBox {
+    top: 25em;
+    max-width: 370px;
+  }
+  .text {
+    font-size: 27px;
+    padding: 12px 10px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  h1 {
+    font-size: 95px;
+  }
+  .titleTop {
+    top: 12em;                
+  }
+  .headerBox {
+    top: 30em;
+  }
+}

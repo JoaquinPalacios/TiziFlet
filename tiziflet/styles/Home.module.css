@@ -1,0 +1,34 @@
+.btn {
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  margin: 20px auto;
+  background: #4979ff;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+}
+.mercadoPago {
+  color: #2b316b;
+  font-size: 45px;
+  font-weight: 500;
+  padding-right: 50px;
+}
+.camion {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: -10px 15px #888888 !important;
+}
+.servicios {
+  background-color: #47769E;
+  border: 1px solid;
+  color: whitesmoke;
+  padding: 10px;
+}
+.extras {
+  background-color: #47769E;
+  border: 1px solid;
+  border-radius: 50px;
+  color: whitesmoke;
+  padding: 10px;
+}
