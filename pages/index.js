@@ -1,23 +1,24 @@
+import { Col, Container, Row } from 'react-bootstrap';
+import { FaLuggageCart, FaQuoteLeft, FaQuoteRight, FaRegBuilding } from "react-icons/fa";
+import { VscPackage, VscPerson, VscTools } from "react-icons/vsc";
+
+import Consejos from './consejos';
+import { GiEscalator } from "react-icons/gi";
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { FaRegBuilding, FaLuggageCart, FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
-import { VscPackage, VscPerson, VscTools } from "react-icons/vsc";
-import { GiEscalator } from "react-icons/gi";
-import { Col, Container, Row } from 'react-bootstrap';
-import Consejos from './consejos';
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Head>
         <title>TiziFlet | Inicio</title>
-        <link rel="icon" href="/logo.png" />
-        <meta name='TiziFlet' content='Fletes y Mudanzas TiziFlet' />
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/logo.png" />
+        <meta name="viewport" content='initial-scale=1.0, width=device-width' />
       </Head>
       <div>
         <div>
-            <Image alt='banner' src='/images/bgHome.jpg' width='3499px' height='1530px' />
+            <Image alt='banner' src='/images/bgHome.jpg' width='3490px' height='1530px' />
           <div>
             <div className='titleTop'>
               <h1>TiziFlet</h1>              
@@ -30,17 +31,17 @@ export default function Home() {
         <Container fluid className='my-5 pb-lg-5'>
           <div className='subTitle'>
             <hr className='w-75 mx-auto shadow-lg text-muted mb-5' />
-            <h2>Contactanos al <a href='tel:+542235894137' className='text-muted'>2235-894-137</a></h2>
+            <h2>Contactanos al <a href='tel:+542235894137' alt='telefono'>2235-894-137</a></h2>
           </div>
-          <h5 className='w-75 mx-auto'>Con base en Mar del Plata, nuestra empresa trabaja en toda la provincia de Buenos Aires.</h5>
+          <p className='w-75 mx-auto fs-5'>Con base en Mar del Plata, nuestra empresa trabaja en toda la provincia de Buenos Aires.</p>
           <hr className='w-75 mx-auto shadow-lg text-muted' />
           <Row className='mt-5 gx-md-1'>
-            <Col md={5} className='align-self-md-center p-md-2 p-lg-3 shadow m-lg-2 m-2 m-md-1 rounded'>
+            <Col sm={12} lg={5} className='align-self-md-center p-md-2 p-lg-3 shadow m-lg-2 m-2 m-md-1 rounded'>
               <h2 className='mt-md-1 ms-2 fw-bolder'>Nosotros</h2>
               <p className='lead mt-3 mx-2'>Tiziflet es una empresa familiar que desde 2016 ofrece un servicio confiable y seguro, siendo nuestra prioridad la satisfacción del cliente. Obteniendo así, que el servicio sea una experiencia confortable en todo sentido.</p>
             </Col>
-            <Col md={6} className={`rounded ms-md-auto ${styles.camion}`}>
-              <Image alt='Nosotros' src='/images/tizifletAbout.jpg' width='5635px' height='3759px'  />
+            <Col sm={12} lg={6} className={`rounded ms-md-auto ${styles.camion}`}>
+              <Image alt='Nosotros' src='/images/tizifletAbout.jpg' width='1500px' height='1001px'  />
             </Col>
           </Row>                 
         </Container>
@@ -82,7 +83,7 @@ export default function Home() {
               <Image alt='logo' src='/images/logo.png' width='100px' height='100px' />
               <Image alt='Mercado Pago' src='/images/mercadoPago.png' width='300px' height='85px' />
             </span>   
-            <p className='fs-5 fst-italic mt-5 mb-0 pb-0 text-center text-muted mx-auto w-75'><FaQuoteLeft className='pb-2' />Estamos muy contentos de incorporar la plataforma de Mercadopago con todos sus medios de pago asociados.<FaQuoteRight className='pb-2' /></p>
+            <p className='fs-5 fst-italic mt-5 mb-0 pb-0 text-center mx-auto w-75'><FaQuoteLeft className='pb-2' />Estamos muy contentos de incorporar la plataforma de Mercadopago con todos sus medios de pago asociados.<FaQuoteRight className='pb-2' /></p>
           </Row> 
           <hr className='w-75 mx-auto shadow-lg' /> 
         </Container>
@@ -90,27 +91,27 @@ export default function Home() {
           <Row className='text-center pb-1 pb-lg-2'>
             <h3 className='m-3 px-3'>Tambien ofrecemos un rango de servicios extras para cubrir todas tus necesidades</h3>
             <Col xs={6} sm={4} lg={2}>
-                <VscPerson size='4em' /><h6>Ayudante</h6>
+                <VscPerson size='4em' /><p className='fs-6'>Ayudante</p>
             </Col>
             <Col xs={6} sm={4} lg={2}>
-                <FaLuggageCart size='4em' /><h6>Carro</h6>
+                <FaLuggageCart size='4em' /><p className='fs-6'>Carro</p>
             </Col>
             <Col xs={6} sm={4} lg={2}>
-                <VscTools size='4em' /><h6>Herramientas</h6>
+                <VscTools size='4em' /><p className='fs-6'>Herramientas</p>
             </Col>
             <Col xs={6} sm={4} lg={2}>
-                <VscPackage size='4em' /><h6>Empaquetado</h6>
+                <VscPackage size='4em' /><p className='fs-6'>Empaquetado</p>
             </Col>
             <Col xs={6} sm={4} lg={2}>
-                <GiEscalator size='4em' /><h6>Escalera</h6>
+                <GiEscalator size='4em' /><p className='fs-6'>Escalera</p>
             </Col>
             <Col xs={6} sm={4} lg={2}>
-                <FaRegBuilding size='4em' /><h6>Altura</h6>
+                <FaRegBuilding size='4em' /><p className='fs-6'>Altura</p>
             </Col>
           </Row>
         </Container>
         <Consejos />                          
       </div>
-    </>
+    </div>
   )
 }

@@ -1,16 +1,17 @@
+import { Col, Container, Row } from "react-bootstrap";
+
 import Head from "next/head";
 import Image from "next/image";
-import { Col, Container, Row } from "react-bootstrap";
 import historia from '../public/images/historia.jpeg'
 import mision from '../public/images/mision.jpg'
 
 const About = () => {
     return ( 
-        <>
+        <div>
             <Head>
                 <title>TiziFlet | Quienes Somos</title>
                 <link rel="icon" href="/logo.png" />
-                <meta name='TiziFlet' content='Fletes y Mudanzas en Mar del Plata y provincia de Buenos Aires | TiziFlet' />
+                <meta name='viewport' content='initial-scale=1.0, width=device-width' />
             </Head>
             <div>
                 <div>
@@ -54,14 +55,14 @@ const About = () => {
                         <Row className='mt-3 mt-sm-5'>
                             <div className='subTitle'>
                                 <hr className='w-75 mx-auto shadow-lg text-muted mb-5' />
-                                <h2>Contactanos al <a href='tel:+542235894137' className='text-muted'>2235-894-137</a></h2>
+                                <h2>Contactanos al <a href='tel:+542235894137' alt='telefono'>2235-894-137</a></h2>
                             </div>
-                            <h5 className='w-75 mx-auto'>Con base en Mar del Plata, nuestra empresa trabaja en toda la provincia de Buenos Aires.</h5>
+                            <p className='w-75 fs-5 mx-auto'>Con base en Mar del Plata, nuestra empresa trabaja en toda la provincia de Buenos Aires.</p>
                             <hr className='w-75 mx-auto shadow-lg text-muted' />
                         </Row>                        
                     </Container>          
             </div>
-        </>
+        </div>
      );
 } 
 export default About;

@@ -1,5 +1,6 @@
-import Image from "next/image";
 import { Col, Container, Row, Table } from "react-bootstrap";
+
+import Image from "next/image";
 
 const Consejos = () => {
     return ( 
@@ -65,17 +66,9 @@ const Consejos = () => {
                         </Table>
                     </Col>
                     <Col md={4} className='d-flex align-items-center'>
-                        <Image className='shadow-lg rounded' src='/images/consejos.jpg' width='4008px' height='6008px' alt='aboutUsPhoto' />
+                        <Image className='shadow-lg rounded' src='/images/consejos.jpg' width='800px' height='1199px' alt='aboutUsPhoto' />
                     </Col>
-                </Row>
-                <Row className='mt-3 mt-sm-5'>
-                    <div className='subTitle'>
-                        <hr className='w-75 mx-auto shadow-lg text-muted mb-5' />
-                        <h2>Contactanos al <a href='tel:+542235894137' className='text-decoration-none fw-bold text-muted'>2235-894-137</a></h2>
-                    </div>
-                    <p className='fs-4 fst-italic text-center mb-5 w-75 mx-auto'>Con base en Mar del Plata, nuestra empresa trabaja en toda la provincia de Buenos Aires.</p>
-                    <hr className='w-75 mx-auto shadow-lg text-muted' />
-                </Row>                   
+                </Row>                 
             </Container>
         </>
      );

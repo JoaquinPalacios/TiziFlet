@@ -1,9 +1,10 @@
+import { Button, Card, Col, Container, Form, Row } from "react-bootstrap";
+import { FaFacebookF, FaInstagram, FaRegEnvelope, FaWhatsapp } from "react-icons/fa";
+
 import Head from "next/head";
 import Image from "next/image";
 import emailjs from 'emailjs-com';
 import { useState } from "react";
-import { Button, Card, Col, Container, Form, Row } from "react-bootstrap";
-import { FaRegEnvelope, FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Result = () => {
     return (
@@ -34,11 +35,11 @@ const Contact = () => {
     }, 5000);
 
     return (
-        <>
+        <div>
             <Head>
                 <title>TiziFlet | Contacto</title>
                 <link rel="icon" href="/logo.png" />
-                <meta name='TiziFlet' content='Fletes y Mudanzas en Mar del Plata y provincia de Buenos Aires | TiziFlet' />
+                <meta name='viewport' content='initial-scale=1.0, width=device-width' />
             </Head>
             <div>
                 <div>
@@ -68,17 +69,17 @@ const Contact = () => {
                         </Col>
                         <Col sm={12} lg={4} className='d-flex flex-column align-items-center'>
                             <Card className='px-4 py-3 bgCeleste rounded-3 shadow mt-4 mt-lg-0'>
-                        <a href='https://wa.me/+5492235894137?text=Hola%20TiziFlet'><FaWhatsapp size='2em' className='pe-2' />+54 9 2235 894137</a><br />
-                        <a href='mailto:tizifletes@gmail.com'><FaRegEnvelope size='2em' className='pe-2' />tizifletes@gmail.com</a><br />
-                        <a href='https://www.facebook.com/Tiziflet'><FaFacebookF size='1.5em' className='pe-2'/> /tiziflet</a><br />
-                        <a href='https://www.instagram.com/tiziflet.s/'><FaInstagram size='2em' className='pe-2' />tiziflet.s</a>
+                                <a href='https://wa.me/+5492235894137?text=Hola%20TiziFlet' target='_blank' rel="noopener noreferrer" className='text-white' alt='Whatsapp' ><FaWhatsapp size='2em' className='pe-2' />+54 9 2235 894137</a><br />
+                                <a href='mailto:tizifletes@gmail.com' target='_blank' rel="noopener noreferrer" className='text-white'alt='email'><FaRegEnvelope size='2em' className='pe-2' />tizifletes@gmail.com</a><br />
+                                <a href='https://www.facebook.com/Tiziflet' target='_blank' rel="noopener noreferrer" className='text-white'alt='Facebook'><FaFacebookF size='1.5em' className='pe-2'/> /tiziflet</a><br />
+                                <a href='https://www.instagram.com/tiziflet.s/' target='_blank' rel="noopener noreferrer" className='text-white'alt='Instagram'><FaInstagram size='2em' className='pe-2' />tiziflet.s</a>
                             </Card>
                         </Col>
                     </Row>
                     <Row>{result ? <Result /> : null}</Row>
                 </Container>
             </div>
-        </>
+        </div>
       );
 }
  
