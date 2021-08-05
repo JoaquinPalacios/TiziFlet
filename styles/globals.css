@@ -149,17 +149,16 @@ footer {
 @media only screen and (max-width: 400px) {
   a {
     font-size: 1em;
-    font-weight: 600;
   }
   h1 {
-    font-size: 45px;
+    font-size: 35px;
   }
   nav .phone {
     font-size: 1em;
     padding: 2px 2px 2px 0px;
   }
   .titleTop {   
-    top: 5em;
+    top: 6em;
   }
   .headerBox { 
     border-radius: 7px;
@@ -168,9 +167,11 @@ footer {
     max-width: 200px;
   }
   .text {
-    font-size: 18px;
-    line-height: 1.2em;
-    padding: 4px 4px;
+    font-size: 17px;
+    line-height: 1em;
+    padding: 4px 1px;
+    display: table-cell;
+    align-content: center;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 576px) {
