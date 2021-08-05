@@ -58,9 +58,9 @@ const Contact = () => {
                     </div>
                 </div>
                 <Container fluid>
-                    <hr className='w-75 mx-auto' />
-                    <h2 className='fs-1 text-center my-5 subTitle'>Hace tu <span className='text-muted'>consulta</span></h2>    
-                    <hr className='w-75 mx-auto' />
+                    <hr className='vw-75 mx-auto' />
+                    <h2 className='fs-1 text-center my-4 my-sm-5 subTitle'>Hace tu <span className='text-muted'>consulta</span></h2>    
+                    <hr className='vw-75 mx-auto' />
                     <Row>
                         <Col sm={12} lg={8} className='gy-3'> 
                             <Form className='ms-lg-5 ms-md-2' noValidate validated={validated} onSubmit={sendEmail}>
@@ -70,11 +70,13 @@ const Contact = () => {
                                     <Col lg={6}><Form.Control required type="tel" placeholder="Telefono" name='tel' className='mb-3' /></Col></Row>                                                                      
                                     <Form.Control required as="textarea" rows={4}  placeholder="Deja tu Mensaje" name='message' className='mb-3' />
                                 </Form.Group>
-                                <Button variant="secondary" type="submit" className='bgCeleste text-white shadow-sm'>Enviar</Button>
+                                <div className='d-grid gap-2 d-lg-block'>
+                                    <Button variant="secondary" type="submit" className='bgCeleste text-white shadow-sm'>Enviar</Button>
+                                </div>
                             </Form>
                         </Col>
                         <Col sm={12} lg={4} className='d-flex flex-column align-items-center'>
-                            <Card className='px-4 py-3 bgCeleste rounded-3 shadow mt-4 mt-lg-0'>
+                            <Card className='px-5 px-lg-4 py-3 bgCeleste rounded-3 shadow mt-4 mt-lg-0'>
                                 <a href='https://wa.me/+5492235894137?text=Hola%20TiziFlet' target='_blank' rel="noopener noreferrer" className='text-white' alt='Whatsapp' ><FaWhatsapp size='2em' className='pe-2' />+54 9 2235 894137</a><br />
                                 <a href='mailto:tizifletes@gmail.com' target='_blank' rel="noopener noreferrer" className='text-white'alt='email'><FaRegEnvelope size='2em' className='pe-2' />tizifletes@gmail.com</a><br />
                                 <a href='https://www.facebook.com/Tiziflet' target='_blank' rel="noopener noreferrer" className='text-white'alt='Facebook'><FaFacebookF size='1.5em' className='pe-2'/> /tiziflet</a><br />

@@ -30,13 +30,13 @@ export default function Home() {
         </div>
         <Container fluid className='my-5 pb-lg-5'>
           <div className='subTitle'>
-            <hr className='w-75 mx-auto shadow-lg text-muted mb-5' />
-            <h2>Contactanos al <a href='tel:+542235894137' alt='telefono'>2235-894-137</a></h2>
+            <hr className='vw-75 mx-auto shadow-lg text-muted mb-5' />
+            <h2>Contactanos al <a href='tel:+542235894137' alt='telefono'>2235-894137</a></h2>
           </div>
-          <p className='w-75 mx-auto fs-5'>Con base en Mar del Plata, nuestra empresa trabaja en toda la provincia de Buenos Aires.</p>
-          <hr className='w-75 mx-auto shadow-lg text-muted' />
+          <p className='vw-75 fs-5 d-flex justify-content-center text-center'>Con base en Mar del Plata, nuestra empresa trabaja en toda la provincia de Buenos Aires.</p>
+          <hr className='vw-75 mx-auto shadow-lg text-muted' />
           <Row className='mt-5 gx-md-1'>
-            <Col sm={12} lg={5} className='align-self-md-center p-md-2 p-lg-3 shadow m-lg-2 m-2 m-md-1 rounded'>
+            <Col sm={12} lg={5} className='align-self-md-center p-1 p-md-2 p-lg-3 shadow m-lg-2 m-2 m-md-1 rounded'>
               <h2 className='mt-md-1 ms-2 fw-bolder'>Nosotros</h2>
               <p className='lead mt-3 mx-2'>Tiziflet es una empresa familiar que desde 2016 ofrece un servicio confiable y seguro, siendo nuestra prioridad la satisfacción del cliente. Obteniendo así, que el servicio sea una experiencia confortable en todo sentido.</p>
             </Col>
@@ -46,9 +46,9 @@ export default function Home() {
           </Row>                 
         </Container>
         <Container className='mt-5'>
-          <hr className='w-75 mx-auto' />
+          <hr className='vw-75 mx-auto' />
           <h2 className='fs-1 text-center my-5 subTitle'>Servicios <span className='text-muted'>de TiziFlet</span></h2>    
-          <hr className='w-75 mx-auto mb-5' />
+          <hr className='vw-75 mx-auto mb-5' />
           <Row className='gx-5 gy-3 mx-auto mx-sm-0 d-flex justify-content-md-evenly'>
             <Col md={4} lg={3} className={`rounded-3 bg-gradient shadow-lg ${styles.servicios}`}>
               <Image alt='fletes mudanzas' src='/images/escalera.png' width='600px' height='400px' className='rounded-1' />
@@ -78,16 +78,16 @@ export default function Home() {
         </Container>
         <Container fluid className='my-5 pb-md-3'>
           <Row className='mx-auto mt-5'>
-            <hr className='w-75 mt-5 mx-auto shadow-lg' />
-            <span className='d-flex flex-row justify-content-between justify-content-lg-around mx-auto px-5 mt-1 w-75'>
+            <hr className='vw-75 mt-5 mx-auto shadow-lg' />
+            <span className='d-flex flex-row justify-content-between justify-content-lg-around mx-auto px-5 mt-1 vw-75'>
               <Image alt='logo' src='/images/logo.png' width='100px' height='100px' />
               <Image alt='Mercado Pago' src='/images/mercadoPago.png' width='300px' height='85px' />
             </span>   
-            <p className='fs-5 fst-italic mt-5 mb-0 pb-0 text-center mx-auto w-75'><FaQuoteLeft className='pb-2' />Estamos muy contentos de incorporar la plataforma de Mercadopago con todos sus medios de pago asociados.<FaQuoteRight className='pb-2' /></p>
+            <p className='fs-5 fst-italic mt-5 mb-0 pb-0 text-center mx-auto vw-75'><FaQuoteLeft className='pb-2' />Estamos muy contentos de incorporar la plataforma de Mercadopago con todos sus medios de pago asociados.<FaQuoteRight className='pb-2' /></p>
           </Row> 
-          <hr className='w-75 mx-auto shadow-lg' /> 
+          <hr className='vw-75 mx-auto shadow-lg' /> 
         </Container>
-        <Container className={`mt-5 mx-3 mx-sm-auto bg-gradient shadow-lg ${styles.extras}`}>
+        <Container className={`mt-5 mx-0 mx-sm-auto bg-gradient shadow-lg ${styles.extras}`}>
           <Row className='text-center pb-1 pb-lg-2'>
             <h3 className='m-3 px-3'>Tambien ofrecemos un rango de servicios extras para cubrir todas tus necesidades</h3>
             <Col xs={6} sm={4} lg={2}>

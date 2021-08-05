@@ -6,10 +6,10 @@ const Consejos = () => {
     return ( 
         <>            
             <Container className='mt-5'>
-                <hr className='w-75 mx-auto' />
+                <hr className='vw-75 mx-auto' />
                 <h2 className='text-center mt-5 subTitle'>Tips <span className='text-muted'> para una mudanza organizada</span></h2>
-                <p className='fs-5 fst-italic text-center mb-5 w-75 mx-auto'>Nos basamos en nuestra experiencia</p>
-                <hr className='w-75 mx-auto mb-5' />
+                <p className='fs-5 fst-italic text-center mb-5 vw-75 mx-auto'>Nos basamos en nuestra experiencia</p>
+                <hr className='vw-75 mx-auto mb-5' />
                 <Row>
                     <Col md={8}>
                         <Table striped borderless hover variant="flush" size="lg" className='d-grid gap-0'>
