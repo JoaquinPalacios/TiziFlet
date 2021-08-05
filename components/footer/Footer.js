@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import { FaWhatsapp, FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
     return ( 
@@ -13,7 +13,7 @@ const Footer = () => {
                     </Col>
                     <Col className='my-auto'>
                         <p>Telefono: 
-                            <a href='tel:+542235894137' className='text-white'> 2235-894-137</a>
+                            <a href='tel:+542235894137' className='text-white'> 2235-894137</a>
                         </p>
                         <p>Email: 
                             <a href='mailto:tizifletes@gmail.com' target='_blank' rel="noopener noreferrer" className='text-white'> tizifletes@gmail.com</a>
