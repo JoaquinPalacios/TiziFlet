@@ -17,15 +17,10 @@ const Result = () => {
 const Contact = () => {
 
     const [result, setResult] = useState(false);
-    const [validated, setValidated] = useState(false);
 
     const sendEmail = (e) => {
         e.preventDefault();
         const form = e.currentTarget;
-        if (form.checkValidity() === false) {            
-            e.stopPropagation();
-          }      
-          setValidated(true);
 
         emailjs.sendForm('service_jpn9c3w', 'template_ts7f5yn', e.target, 'user_hoTtSl92UpMWONbs4fzAz')
         .then((result) => {
@@ -63,7 +58,7 @@ const Contact = () => {
                     <hr className='vw-75 mx-auto' />
                     <Row>
                         <Col sm={12} lg={8} className='gy-3'> 
-                            <Form className='ms-lg-5 ms-md-2' noValidate validated={validated} onSubmit={sendEmail}>
+                            <Form className='ms-lg-5 ms-md-2' data-toggle="validator" onSubmit={sendEmail}>
                                 <Form.Group>
                                     <Form.Control required type="text" placeholder="Nombre" name='name' className='mb-3' />                                 
                                     <Row><Col lg={6}><Form.Control required type="email" placeholder="Email" name='email' className='mb-3' /></Col>
