@@ -52,7 +52,7 @@ const Contact = () => {
                         <p className='text'>Contactanos!</p>
                     </div>
                 </div>
-                <Container fluid>
+                <Container>
                     <hr className='vw-75 mx-auto' />
                     <h2 className='fs-1 text-center my-4 my-sm-5 subTitle'>Hace tu <span className='text-muted'>consulta</span></h2>    
                     <hr className='vw-75 mx-auto' />
