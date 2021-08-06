@@ -23,7 +23,7 @@ const About = () => {
                         <p className='text'>Una empresa familiar</p>
                     </div>
                 </div>
-                    <Container fluid>
+                    <Container>
                         <hr className='vw-75 mx-auto' />
                         <h2 className='fs-1 text-center my-4 my-sm-5 subTitle'>
                             Quienes <span className='text-muted'>Somos</span>

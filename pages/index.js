@@ -28,7 +28,7 @@ export default function Home() {
             </div>          
           </div>
         </div>
-        <Container fluid className='my-5 pb-lg-5'>
+        <Container className='my-5 pb-lg-5'>
           <div className='subTitle'>
             <hr className='vw-75 mx-auto shadow-lg text-muted mb-5' />
             <h2>Contactanos al <a href='tel:+542235894137' alt='telefono'>2235-894137</a></h2>
@@ -76,7 +76,7 @@ export default function Home() {
             </Col>
           </Row>          
         </Container>
-        <Container fluid className='my-5 pb-md-3'>
+        <Container className='my-5 pb-md-3'>
           <Row className='mx-auto mt-5'>
             <hr className='vw-75 mt-5 mx-auto shadow-lg' />
             <span className='d-flex flex-row justify-content-between justify-content-lg-around mx-auto px-5 mt-1 vw-75'>
