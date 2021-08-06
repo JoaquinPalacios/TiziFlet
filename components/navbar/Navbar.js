@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
     return ( 
-        <NavbarBootstrap className='my-0' expand="lg">
+        <NavbarBootstrap className='my-0' collapseOnSelect expand="lg">
             <div className='col-2 col-lg-1 logo ms-sm-3 me-0 pe-0'>
                 <Image alt='logo' src='/images/logo.png' width='75px' height='75px' />
             </div>
@@ -28,7 +28,7 @@ const Navbar = () => {
                     </span>
                 </div>           
                 <Nav className='col-8 col-lg-6 col-xl-4 d-flex justify-content-end align-self-center me-2'>
-                    <Link href="/"><a className='mx-3 my-2 my-lg-0'>Inicio</a></Link>
+                    <Link href="/"><a className='mx-3 my-2 pt-3 my-lg-0'>Inicio</a></Link>
                     <Link href="/about"><a className='mx-3 my-2 my-lg-0'>Quienes Somos</a></Link>
                     <Link href="/contacto"><a className='ms-3 me-xl-2 my-2 my-lg-0'>Contacto</a></Link>
                 </Nav>

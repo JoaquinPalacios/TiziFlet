@@ -55,7 +55,7 @@ const About = () => {
                         <Row className='mt-3 mt-sm-5'>
                             <div className='subTitle'>
                                 <hr className='vw-75 mx-auto shadow-lg text-muted mb-5' />
-                                <h2>Contactanos al <a href='tel:+542235894137' alt='telefono'>2235-894-137</a></h2>
+                                <h2>Contactanos al <a href='tel:+542235894137' alt='telefono'>2235-894137</a></h2>
                             </div>
                             <p className='vw-75 fs-5 d-flex justify-content-center text-center'>Con base en Mar del Plata, nuestra empresa trabaja en toda la provincia de Buenos Aires.</p>
                             <hr className='vw-75 mx-auto shadow-lg text-muted' />

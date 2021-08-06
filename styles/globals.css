@@ -153,6 +153,9 @@ footer {
   h1 {
     font-size: 35px;
   }
+  h2 {
+    font-size: 1.2em !important;
+  }
   nav .phone {
     font-size: 1em;
     padding: 2px 2px 2px 0px;
@@ -182,7 +185,7 @@ footer {
   .toggleBg {
     background-color: #f2f2f2;
     color: #4f4f4f;
-    height: 100vh;
+    height: 23vh;
     z-index: 1080;
   }
 }
@@ -214,7 +217,7 @@ footer {
   .toggleBg {
     background-color: #fff;
     color: #4f4f4f;
-    height: 100vh;
+    height: 35vh;
     z-index: 1080;
     transition: 0.2s ease-in-out;
   }
@@ -239,6 +242,13 @@ footer {
   .text {
     font-size: 21px;
     padding: 8px 6px;
+  }
+  .toggleBg {
+    background-color: #fff;
+    color: #4f4f4f;
+    height: 40vh;
+    z-index: 1080;
+    transition: 0.2s ease-in-out;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
