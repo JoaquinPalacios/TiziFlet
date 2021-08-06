@@ -60,9 +60,12 @@ const Contact = () => {
                         <Col sm={12} lg={8} className='gy-3'> 
                             <Form className='ms-lg-5 ms-md-2' data-toggle="validator" onSubmit={sendEmail}>
                                 <Form.Group>
-                                    <Form.Control required type="text" placeholder="Nombre" name='name' className='mb-3' />                                 
-                                    <Row><Col lg={6}><Form.Control required type="email" placeholder="Email" name='email' className='mb-3' /></Col>
-                                    <Col lg={6}><Form.Control required type="tel" placeholder="Telefono" name='tel' className='mb-3' /></Col></Row>                                                                      
+                                    <Form.Control required type="text" placeholder="Nombre" name='name' className='mb-3' />
+                                    <Form.Control.Feedback type="invalid">Por favor ingresa tu nombre.</Form.Control.Feedback>                                 
+                                    <Row><Col lg={6}><Form.Control required type="email" placeholder="Email" name='email' className='mb-3' />
+                                    <Form.Control.Feedback type="invalid">Por favor ingresa tu email.</Form.Control.Feedback></Col>
+                                    <Col lg={6}><Form.Control required type="tel" placeholder="Telefono" name='tel' className='mb-3' />
+                                    <Form.Control.Feedback type="invalid">Por favor ingresa tu telefono.</Form.Control.Feedback></Col></Row>                                                                      
                                     <Form.Control required as="textarea" rows={4}  placeholder="Deja tu Mensaje" name='message' className='mb-3' />
                                 </Form.Group>
                                 <div className='d-grid gap-2 d-lg-block'>
