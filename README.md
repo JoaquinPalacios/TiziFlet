@@ -2,11 +2,11 @@
 > This project is a Removalist WebSite
 # Technologies
 Project is created with:
-> Bootstrap 5.0.2
-> EmailJS 3.2.0
-> Next.Js 11.0.0
-> React.Js 17.0.2
-> React Icons 4.2.0
+> Bootstrap 5.0.2 - 
+> EmailJS 3.2.0 - 
+> Next.Js 11.0.0 - 
+> React.Js 17.0.2 - 
+> React Icons 4.2.0 - 
 > JavaScript ES7.
 # Website
 > Home
