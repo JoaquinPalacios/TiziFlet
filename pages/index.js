@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <div>
         <div>
-            <Image alt='banner' src='/images/bgHome.jpg' width='3490px' height='1530px' />
+            <Image alt='banner' src='/images/bgHome.jpg' width={3490} height={1530} />
           <div>
             <div className='titleTop'>
               <h1>TiziFlet</h1>              
@@ -41,7 +41,7 @@ export default function Home() {
               <p className='lead mt-3 mx-2'>Tiziflet es una empresa familiar que desde 2016 ofrece un servicio confiable y seguro, siendo nuestra prioridad la satisfacción del cliente. Obteniendo así, que el servicio sea una experiencia confortable en todo sentido.</p>
             </Col>
             <Col sm={12} lg={6} className={`rounded ms-md-auto ${styles.camion}`}>
-              <Image alt='Nosotros' src='/images/tizifletAbout.jpg' width='1500px' height='1001px'  />
+              <Image alt='Nosotros' src='/images/tizifletAbout.jpg' width={1500} height={1001}  />
             </Col>
           </Row>                 
         </Container>
