@@ -172,7 +172,7 @@ footer {
   .text {
     font-size: 17px;
     line-height: 1em;
-    padding: 4px 1px;
+    padding: 8px 8px;
     display: table-cell;
     align-content: center;
   }
@@ -212,7 +212,7 @@ footer {
   .text {
     font-size: 19px;
     line-height: 1.4em;
-    padding: 6px 5px;
+    padding: 10px 10px;
   }
   .toggleBg {
     background-color: #fff;
@@ -241,7 +241,7 @@ footer {
   }
   .text {
     font-size: 21px;
-    padding: 8px 6px;
+    padding: 12px 10px;
   }
   .toggleBg {
     background-color: #fff;
@@ -266,7 +266,7 @@ footer {
   }
   .text {
     font-size: 25px;
-    padding: 10px 8px;
+    padding: 12px 10px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
