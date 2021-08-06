@@ -20,7 +20,7 @@ const Navbar = () => {
                     <a href='tel:+542235894137' alt='telefono' className='white'>2235-894137</a>
                 </span>
             </div> 
-            <NavbarBootstrap.Toggle aria-controls="responsive-navbar-nav" className="me-3" onClick={() => setExpanded(expanded ? false : "expanded")} />
+            <NavbarBootstrap.Toggle aria-controls="responsive-navbar-nav" className="me-3" onClick={() => setExpanded(!expanded)} />
             <NavbarBootstrap.Collapse className='col-4 col-lg-11 toggleBg' id="responsive-navbar-nav">
                 <Nav className='col-4 d-flex d-none d-xl-block fs-5 fst-italic justify-content-start align-self-end ms-0 ps-0'>
                     <FaQuoteLeft size='1.2em' className='pb-3' />Mudanzas en Mar del Plata y alrededores<FaQuoteRight size='1.2em' className='pb-3' />
