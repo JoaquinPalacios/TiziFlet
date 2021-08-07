@@ -14,4 +14,4 @@ Project is created with:
 > ![image](https://user-images.githubusercontent.com/68148163/128437623-fd24afb3-e6b5-4ad7-a909-7d1abbf11dcf.png)
 > ![image](https://user-images.githubusercontent.com/68148163/128437687-70761a92-5f82-416e-b9d5-cf1aa877d3bf.png)
 # Vercel analytics
-> ![image](https://user-images.githubusercontent.com/68148163/128572427-4fb2a73f-9c0f-4b26-aedd-f7fca189ef6b.png)
+![image](https://user-images.githubusercontent.com/68148163/128613145-44dcefc9-2f53-4f7d-83f6-67b228197b23.png)
