@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>TiziFlet | Inicio</title>
-        <link rel="icon" type="image/png" sizes="16x16" href="/images/logo.png" />
-        <meta name="viewport" content='initial-scale=1.0, width=device-width' />
+        <title>Inicio | TiziFlet</title>
+        <meta name='description' content='Fletes en mar del Plata y alrededores. Confianza y Seguridad en Fletes y Mudanzas.' />
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/logo.png" />        
       </Head>
       <div>
         <div>

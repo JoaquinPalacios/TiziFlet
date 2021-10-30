@@ -9,9 +9,9 @@ const About = () => {
     return ( 
         <div>
             <Head>
-                <title>TiziFlet | Quienes Somos</title>
+                <title>Quienes Somos | TiziFlet</title>
+                <meta name='description' content='Sobre Tiziflet, fletes en mar del Plata y alrededores.' />
                 <link rel="icon" type="image/png" sizes="16x16" href="/images/logo.png" />
-                <meta name='viewport' content='initial-scale=1.0, width=device-width' />
             </Head>
             <div>
                 <div>

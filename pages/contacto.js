@@ -38,9 +38,9 @@ const Contact = () => {
     return (
         <div>
             <Head>
-                <title>TiziFlet | Contacto</title>
-                <link rel="icon" type="image/png" sizes="16x16" href="/images/logo.png" />
-                <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+                <title>Contacto | TiziFlet</title>
+                <meta name='description' content='Contacta TiziFlet. Fletes en mar del Plata y alrededores.' />
+                <link rel="icon" type="image/png" sizes="16x16" href="/images/logo.png" />                
             </Head>
             <div>
                 <div>
