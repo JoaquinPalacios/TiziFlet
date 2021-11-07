@@ -13,6 +13,7 @@ const Layout = ({ children }) => {
               <meta property="og:type" content="website" />
               <meta property="og:image" content="https://www.tiziflet.com.ar/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Fmision.fc4e03fc331008783b8be5d256c3fe76.jpg&w=3840&q=75" />
               <meta property="og:url" content="www.tiziflet.com.ar" />
+              <meta property="og:locale" content="es_AR" />
             </Head>        
             <div>
                 <Navbar />
