@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
               <meta property="og:title" content='Fletes TiziFlet' />
               <meta property="og:description" content='Fletes y mudanzas en Mar del Plata y alrededores' />
               <meta property="og:type" content="website" />
-              <meta property="og:image" content='/images/mision.png' />
+              <meta property="og:image" content="/images/mision.png" />
               <meta property="og:url" content="www.tiziflet.com.ar" />
             </Head>        
             <div>
