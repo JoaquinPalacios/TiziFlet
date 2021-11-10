@@ -1,13 +1,14 @@
-import { Col, Container, Row } from "react-bootstrap";
-
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
 import Head from "next/head";
 import Image from "next/image";
+import Row from 'react-bootstrap/Row';
 import historia from '../public/images/historia.jpeg'
 import mision from '../public/images/mision.jpg'
 
 const About = () => {
     return ( 
-        <div>
+        <>
             <Head>
                 <title>Quienes Somos | TiziFlet</title>
                 <meta name='description' content='Sobre Tiziflet, fletes en mar del Plata y alrededores.' />
@@ -62,7 +63,7 @@ const About = () => {
                         </Row>                        
                     </Container>          
             </div>
-        </div>
+        </>
      );
 } 
 export default About;

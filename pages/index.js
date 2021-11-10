@@ -1,16 +1,18 @@
-import { Col, Container, Row } from 'react-bootstrap';
 import { FaLuggageCart, FaQuoteLeft, FaQuoteRight, FaRegBuilding } from "react-icons/fa";
 import { VscPackage, VscPerson, VscTools } from "react-icons/vsc";
 
+import Col from 'react-bootstrap/Col';
 import Consejos from './consejos';
+import Container from 'react-bootstrap/Container';
 import { GiEscalator } from "react-icons/gi";
 import Head from 'next/head'
 import Image from 'next/image'
+import Row from 'react-bootstrap/Row';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Inicio | TiziFlet</title>
         <meta name='description' content='Fletes en mar del Plata y alrededores. Confianza y Seguridad en Fletes y Mudanzas.' />
@@ -112,6 +114,6 @@ export default function Home() {
         </Container>
         <Consejos />                          
       </div>
-    </div>
+    </>
   )
 }

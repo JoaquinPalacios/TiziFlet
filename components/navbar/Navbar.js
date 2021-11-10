@@ -1,9 +1,10 @@
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
-import { Nav, Navbar as NavbarBootstrap } from "react-bootstrap";
 
 import { BiPhoneCall } from "react-icons/bi";
 import Image from 'next/image';
 import Link from 'next/link';
+import Nav from 'react-bootstrap/Nav';
+import {Navbar as NavbarBootstrap} from 'react-bootstrap/Navbar';
 import { useState } from "react";
 
 const Navbar = () => {

@@ -1,10 +1,11 @@
-import { Col, Container, Row, Table } from "react-bootstrap";
-
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
 import Image from "next/image";
+import Row from 'react-bootstrap/Row';
+import Table from 'react-bootstrap/Table';
 
 const Consejos = () => {
-    return ( 
-        <>            
+    return (         
             <Container className='mt-5'>
                 <hr className='vw-75 mx-auto' />
                 <h2 className='text-center mt-5 subTitle'>Tips <span className='text-muted'> para una mudanza organizada</span></h2>
@@ -70,7 +71,6 @@ const Consejos = () => {
                     </Col>
                 </Row>                 
             </Container>
-        </>
      );
 }
  

@@ -1,5 +1,8 @@
-import { Col, Container, Row } from "react-bootstrap";
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
+
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
 const Footer = () => {
     return ( 
@@ -25,8 +28,7 @@ const Footer = () => {
                         <a href='https://www.instagram.com/tiziflet.s/' aria-label="Instagram" target='_blank' rel="noopener noreferrer" className='text-white mx-1'><FaInstagram size='2em' /></a>
                     </Col>
                 </Row>               
-            </Container>
-            
+            </Container>            
         </footer>
         <div className='text-center'>
             Copyright&copy; 2021 proudly created with Next.js

@@ -1,21 +1,21 @@
-import { Button, Card, Col, Container, Form, Row } from "react-bootstrap";
 import { FaFacebookF, FaInstagram, FaRegEnvelope, FaWhatsapp } from "react-icons/fa";
 
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
 import Head from "next/head";
 import Image from "next/image";
+import Row from 'react-bootstrap/Row';
 import emailjs from 'emailjs-com';
 import { useState } from "react";
 
 const Result = () => {
-    return (
-        <>
-        <h4 className='text-center'>Gracias por tu consulta.</h4>
-        </>
-    )
+    return <h4 className='text-center'>Gracias por tu consulta.</h4>
 }
 
 const Contact = () => {
-
     const [result, setResult] = useState(false);
 
     const sendEmail = (e) => {
@@ -36,7 +36,7 @@ const Contact = () => {
     }, 5000);
 
     return (
-        <div>
+        <>
             <Head>
                 <title>Contacto | TiziFlet</title>
                 <meta name='description' content='Contacta TiziFlet. Fletes en mar del Plata y alrededores.' />
@@ -82,7 +82,7 @@ const Contact = () => {
                     <Row>{result ? <Result /> : null}</Row>
                 </Container>
             </div>
-        </div>
+        </>
       );
 }
  
