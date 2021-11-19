@@ -16,7 +16,16 @@ export default function Home() {
       <Head>
         <title>Inicio | TiziFlet</title>
         <meta name='description' content='Fletes en mar del Plata y alrededores. Confianza y Seguridad en Fletes y Mudanzas.' />
-        <link rel="icon" type="image/png" sizes="16x16" href="/images/logo.png" />        
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/logo.png" />
+        <meta property="og:title" content='Fletes TiziFlet' />
+        <meta property="og:description" content='Fletes en mar del Plata y alrededores. Confianza y Seguridad en Fletes y Mudanzas.' />
+        <meta property="og:image" content="https://i.ibb.co/YkNHbKh/tiziOG.png" />
+        <meta property="og:image:secure_url" content="https://i.ibb.co/YkNHbKh/tiziOG.png" /> 
+        <meta property="og:image:type" content="image/png" /> 
+        <meta property="og:image:width" content="1200" /> 
+        <meta property="og:image:height" content="627" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.tiziflet.com.ar/" />    
       </Head>
       <div>
         <div>
