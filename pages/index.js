@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Inicio | TiziFlet</title>
+        <title>TiziFlet | Fletes en Mar del Plata y alrededores</title>
         <meta name='description' content='Fletes en mar del Plata y alrededores. Confianza y Seguridad en Fletes y Mudanzas.' />
         <link rel="icon" type="image/png" sizes="32x32" href="/images/logo.png" />
         <meta property="og:title" content='Fletes TiziFlet' />
